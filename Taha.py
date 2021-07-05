@@ -1,4 +1,27 @@
-import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,requests,mechanize
+#!/usr/bin/python2
+#coding=utf-8
+
+import os, sys, time, datetime, random, hashlib, re, threading, json, urllib, cookielib, getpass
+os.system('rm -rf .txt')
+for n in range(20000):
+    nmbr = random.randint(1111111, 9999999)
+    sys.stdout = open('.txt', 'a')
+    print nmbr
+    sys.stdout.flush()
+
+try:
+    import requests
+except ImportError:
+    os.system('No Module Named Requests! type:pip2 install requests')
+
+try:
+    import mechanize
+except ImportError:
+    os.system('No Module Named Mechanize! type:pip2 install mechanize')
+    time.sleep(1)
+    os.system('Then type: python2 bangla.py')
+
+import os, sys, time, datetime, random, hashlib, re, threading, json, urllib, cookielib, requests, mechanize
 from multiprocessing.pool import ThreadPool
 from requests.exceptions import ConnectionError
 from mechanize import Browser
