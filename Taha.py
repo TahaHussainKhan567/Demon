@@ -38,12 +38,10 @@ def jalan(z):
 ##### LOGO #####
 logo = """
    Taha Hussain
-   ▄︻̷̿┻̿═━一
    THE ANONYMOUS lovehacker TRICKER 
-   THE LEGEND ℒℴνℯ
-   THE GAME CHANGER ℒℴνℯ
+   THE LEGEND HACKER
+   THE GAME CHANGER BOY
    pakistani hackers
-   ℒℴνℯ ▄︻̷̿┻̿═━一
 \033[1;91m=======================================
 \033[1;96mAuthor  \033[1;93m: \033[1;92mTaha
 \033[1;96mPython \033[1;93m: \033[1;92mPakistani Hackers
